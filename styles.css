@@ -30,11 +30,16 @@ body {
   display: block;
 }
 
+.main-content img {
+  width: 95%;
+  height: auto;
+}
+
 .sidebar ul li a {
   color: black;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 .sidebar ul li a:hover {
@@ -53,6 +58,18 @@ body {
 }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-100%); }
+  from {
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+  }
+  to {
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      -o-transform: translateX(-100%);
+      transform: translateX(-100%);
+  }
 }
