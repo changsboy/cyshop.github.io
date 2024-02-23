@@ -29,3 +29,14 @@ body {
 .main-content > div:target {
   display: block;
 }
+
+.sidebar ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+
+.sidebar ul li a:hover {
+  color: red;
+}
