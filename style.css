@@ -2,25 +2,30 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  text-align: center;
+.container {
+  display: flex;
 }
 
-h1 {
-  color: #343a40;
+.sidebar {
+  flex: 30%;
+  border-right: 1px solid #ddd;
+  padding: 20px;
 }
 
-main {
-  padding: 20px 0;
-  text-align: center;
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-footer {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 0.8em;
-  color: #868e96;
+.main-content {
+  flex: 70%;
+  padding: 20px;
+}
+
+.main-content > div {
+  display: none;
+}
+
+.main-content > div:target {
+  display: block;
 }
