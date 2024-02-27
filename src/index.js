@@ -14,7 +14,7 @@ ReactDOM.render(
    
  <ProductProvider>
      <ThemeProvider>
-       <Router>
+       <Router basename="/cyshop.github.io">
             <App />
            </Router>
   </ThemeProvider>
