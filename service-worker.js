@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cyshop.github.io/precache-manifest.8608a751509412f31ea420ac49342088.js"
+  "/cyshop.github.io/precache-manifest.438d693a24ce3fb9b238a527f2c78ad2.js"
 );
 
 self.addEventListener('message', (event) => {
